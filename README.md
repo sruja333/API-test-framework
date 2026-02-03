@@ -69,9 +69,9 @@ CI responsibilities include:
 This ensures that only stable and validated changes are integrated.
 
 ⭐ Key SDET Concepts Demonstrated
-API contract testing
-Test infrastructure design
-CI/CD integration
-Flaky test detection
-Quality gate enforcement
-Python packaging & test reliability
+- API contract testing
+- Test infrastructure design
+- CI/CD integration
+- Flaky test detection
+- Quality gate enforcement
+- Python packaging & test reliability
