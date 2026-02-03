@@ -3,8 +3,9 @@ name: CI Pipeline
 on: [push]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  - name: Run quality gate
+    run: python quality/flaky_runner.py
+
 
     steps:
       - uses: actions/checkout@v3
