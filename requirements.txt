@@ -3,5 +3,4 @@ uvicorn
 pytest
 requests
 pyyaml
- 
- 
+httpx
