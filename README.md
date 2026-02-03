@@ -12,12 +12,15 @@ The framework focuses on enforcing quality gates by validating API behavior, err
 - GitHub Actions (CI pipeline)
 
 # Project Structure
+```text
 api-test-framework/
 ├── app/                 # Sample backend service
 ├── tests/               # API automation tests
 ├── config/              # Environment configuration
 ├── docker/              # Dockerized test setup
 └── .github/workflows/   # CI pipeline
+```
+
 
 # How it works
 1. A sample FastAPI backend simulates a real-world service.
