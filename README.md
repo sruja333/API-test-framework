@@ -12,16 +12,14 @@ The framework focuses on enforcing quality gates by validating API behavior, err
 - GitHub Actions (CI pipeline)
 
 # Project Structure
-```text
+```
 api-test-framework/
 ├── app/                 # Sample backend service
 ├── tests/               # API automation tests
 ├── config/              # Environment configuration
 ├── docker/              # Dockerized test setup
 └── .github/workflows/   # CI pipeline
-```
-
-
+``` 
 # How it works
 1. A sample FastAPI backend simulates a real-world service.
 2. PyTest-based automation tests validate API contracts, response codes, and error scenarios.
@@ -42,4 +40,3 @@ docker run api-tests
 # Continous Integration
 The project uses GitHub Actions to automatically execute tests on every code push.
 Any test failure blocks the pipeline, ensuring only validated changes are integrated.
-
