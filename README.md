@@ -28,9 +28,9 @@ api-test-framework/
 5. The pipeline fails if any quality checks do not pass.
 
 # Running locally
-# Start backend
+## Start backend
 uvicorn app.main:app --reload
-# Run tests
+## Run tests
 pytest -v
 
 # Running with Docker
