@@ -68,7 +68,7 @@ CI responsibilities include:
   
 This ensures that only stable and validated changes are integrated.
 
-⭐ Key SDET Concepts Demonstrated
+⭐ Key Concepts Demonstrated
 - API contract testing
 - Test infrastructure design
 - CI/CD integration
